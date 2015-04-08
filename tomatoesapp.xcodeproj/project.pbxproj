@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		925F49501AD5D55D00C50EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F494F1AD5D55D00C50EBB /* AppDelegate.swift */; };
+		925F49521AD5D55D00C50EBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F49511AD5D55D00C50EBB /* ViewController.swift */; };
+		925F49551AD5D55D00C50EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925F49531AD5D55D00C50EBB /* Main.storyboard */; };
+		925F49571AD5D55D00C50EBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925F49561AD5D55D00C50EBB /* Images.xcassets */; };
+		925F495A1AD5D55D00C50EBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 925F49581AD5D55D00C50EBB /* LaunchScreen.xib */; };
+		925F49661AD5D55D00C50EBB /* tomatoesappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F49651AD5D55D00C50EBB /* tomatoesappTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		925F49601AD5D55D00C50EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 925F49421AD5D55D00C50EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925F49491AD5D55D00C50EBB;
+			remoteInfo = tomatoesapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		925F494A1AD5D55D00C50EBB /* tomatoesapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomatoesapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		925F494E1AD5D55D00C50EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925F494F1AD5D55D00C50EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		925F49511AD5D55D00C50EBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		925F49541AD5D55D00C50EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		925F49561AD5D55D00C50EBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		925F49591AD5D55D00C50EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		925F495F1AD5D55D00C50EBB /* tomatoesappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomatoesappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		925F49641AD5D55D00C50EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925F49651AD5D55D00C50EBB /* tomatoesappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatoesappTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		925F49471AD5D55D00C50EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925F495C1AD5D55D00C50EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		925F49411AD5D55D00C50EBB = {
+			isa = PBXGroup;
+			children = (
+				925F494C1AD5D55D00C50EBB /* tomatoesapp */,
+				925F49621AD5D55D00C50EBB /* tomatoesappTests */,
+				925F494B1AD5D55D00C50EBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		925F494B1AD5D55D00C50EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				925F494A1AD5D55D00C50EBB /* tomatoesapp.app */,
+				925F495F1AD5D55D00C50EBB /* tomatoesappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925F494C1AD5D55D00C50EBB /* tomatoesapp */ = {
+			isa = PBXGroup;
+			children = (
+				925F494F1AD5D55D00C50EBB /* AppDelegate.swift */,
+				925F49511AD5D55D00C50EBB /* ViewController.swift */,
+				925F49531AD5D55D00C50EBB /* Main.storyboard */,
+				925F49561AD5D55D00C50EBB /* Images.xcassets */,
+				925F49581AD5D55D00C50EBB /* LaunchScreen.xib */,
+				925F494D1AD5D55D00C50EBB /* Supporting Files */,
+			);
+			path = tomatoesapp;
+			sourceTree = "<group>";
+		};
+		925F494D1AD5D55D00C50EBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				925F494E1AD5D55D00C50EBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		925F49621AD5D55D00C50EBB /* tomatoesappTests */ = {
+			isa = PBXGroup;
+			children = (
+				925F49651AD5D55D00C50EBB /* tomatoesappTests.swift */,
+				925F49631AD5D55D00C50EBB /* Supporting Files */,
+			);
+			path = tomatoesappTests;
+			sourceTree = "<group>";
+		};
+		925F49631AD5D55D00C50EBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				925F49641AD5D55D00C50EBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		925F49491AD5D55D00C50EBB /* tomatoesapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925F49691AD5D55D00C50EBB /* Build configuration list for PBXNativeTarget "tomatoesapp" */;
+			buildPhases = (
+				925F49461AD5D55D00C50EBB /* Sources */,
+				925F49471AD5D55D00C50EBB /* Frameworks */,
+				925F49481AD5D55D00C50EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tomatoesapp;
+			productName = tomatoesapp;
+			productReference = 925F494A1AD5D55D00C50EBB /* tomatoesapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		925F495E1AD5D55D00C50EBB /* tomatoesappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925F496C1AD5D55D00C50EBB /* Build configuration list for PBXNativeTarget "tomatoesappTests" */;
+			buildPhases = (
+				925F495B1AD5D55D00C50EBB /* Sources */,
+				925F495C1AD5D55D00C50EBB /* Frameworks */,
+				925F495D1AD5D55D00C50EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925F49611AD5D55D00C50EBB /* PBXTargetDependency */,
+			);
+			name = tomatoesappTests;
+			productName = tomatoesappTests;
+			productReference = 925F495F1AD5D55D00C50EBB /* tomatoesappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		925F49421AD5D55D00C50EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "John Walecka";
+				TargetAttributes = {
+					925F49491AD5D55D00C50EBB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					925F495E1AD5D55D00C50EBB = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 925F49491AD5D55D00C50EBB;
+					};
+				};
+			};
+			buildConfigurationList = 925F49451AD5D55D00C50EBB /* Build configuration list for PBXProject "tomatoesapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 925F49411AD5D55D00C50EBB;
+			productRefGroup = 925F494B1AD5D55D00C50EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925F49491AD5D55D00C50EBB /* tomatoesapp */,
+				925F495E1AD5D55D00C50EBB /* tomatoesappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		925F49481AD5D55D00C50EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925F49551AD5D55D00C50EBB /* Main.storyboard in Resources */,
+				925F495A1AD5D55D00C50EBB /* LaunchScreen.xib in Resources */,
+				925F49571AD5D55D00C50EBB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925F495D1AD5D55D00C50EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		925F49461AD5D55D00C50EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925F49521AD5D55D00C50EBB /* ViewController.swift in Sources */,
+				925F49501AD5D55D00C50EBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925F495B1AD5D55D00C50EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925F49661AD5D55D00C50EBB /* tomatoesappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		925F49611AD5D55D00C50EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925F49491AD5D55D00C50EBB /* tomatoesapp */;
+			targetProxy = 925F49601AD5D55D00C50EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		925F49531AD5D55D00C50EBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925F49541AD5D55D00C50EBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		925F49581AD5D55D00C50EBB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925F49591AD5D55D00C50EBB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		925F49671AD5D55D00C50EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		925F49681AD5D55D00C50EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925F496A1AD5D55D00C50EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tomatoesapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		925F496B1AD5D55D00C50EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tomatoesapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		925F496D1AD5D55D00C50EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tomatoesappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tomatoesapp.app/tomatoesapp";
+			};
+			name = Debug;
+		};
+		925F496E1AD5D55D00C50EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tomatoesappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tomatoesapp.app/tomatoesapp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		925F49451AD5D55D00C50EBB /* Build configuration list for PBXProject "tomatoesapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925F49671AD5D55D00C50EBB /* Debug */,
+				925F49681AD5D55D00C50EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925F49691AD5D55D00C50EBB /* Build configuration list for PBXNativeTarget "tomatoesapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925F496A1AD5D55D00C50EBB /* Debug */,
+				925F496B1AD5D55D00C50EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		925F496C1AD5D55D00C50EBB /* Build configuration list for PBXNativeTarget "tomatoesappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925F496D1AD5D55D00C50EBB /* Debug */,
+				925F496E1AD5D55D00C50EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 925F49421AD5D55D00C50EBB /* Project object */;
+}
