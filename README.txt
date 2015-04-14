@@ -1,4 +1,4 @@
-Time Spent: 15 Hours
+Time Spent: 16 Hours
 
 Features
 
@@ -13,3 +13,5 @@ Required
 		- small issue, I was unable to place the UIErrorLabel on top of the movie cell in the story board without the label being
 			added to the cell itself. I was forced to place it above the cells which created a small block of white space
 [x] User can pull to refresh the movie list.
+
+<a href="http://imgur.com/4uYqklY"><img src="http://i.imgur.com/4uYqklY.gif" title="source: imgur.com" /></a>
