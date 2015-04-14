@@ -14,4 +14,4 @@ Required
 			added to the cell itself. I was forced to place it above the cells which created a small block of white space
 [x] User can pull to refresh the movie list.
 
-<a href="http://imgur.com/4uYqklY"><img src="http://i.imgur.com/4uYqklY.gif" title="source: imgur.com" /></a>
+[img]http://i.imgur.com/4uYqklY.gif[/img]
